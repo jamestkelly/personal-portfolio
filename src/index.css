@@ -38,8 +38,12 @@ html, body {
   z-index: 0;
 }
 
-@media (max-width: 640px) {
-  .particle-canvas {
+@media (min-width: 640px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .mobile-cv {
     display: none;
   }
 }
@@ -92,6 +96,16 @@ html, body {
 .sidebar-icon {
   @apply relative flex items-center justify-center
   h-12 w-12 mt-2 mb-2 mx-auto
+bg-gray-400 hover:bg-green-600 dark:bg-gray-800
+text-green-500 hover:text-white
+  hover:rounded-xl rounded-3xl
+  transition-all duration-300 ease-linear
+  cursor-pointer shadow-lg ;
+}
+
+.mobile-navbar-icon {
+  @apply relative flex items-center justify-center
+  h-12 w-12 mt-2 mb-2 mx-4
 bg-gray-400 hover:bg-green-600 dark:bg-gray-800
 text-green-500 hover:text-white
   hover:rounded-xl rounded-3xl

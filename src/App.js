@@ -117,9 +117,6 @@ function App() {
             </Link>
             <a href="#"><button class="px-6 py-2 bg-theme font-bold rounded">Resume</button></a>
           </div>
-          <div class="md:hidden">
-            <MdMenu size="24"/>
-          </div>
         </div>
       </header>
 
@@ -576,7 +573,7 @@ function App() {
           </p>
 
           <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-20">
-            <div class="space-y-10">
+            <div class="space-y-8">
               <div>
                 <label class="text-white block mb-2 text-xl font-bold">
                   Name
@@ -600,7 +597,7 @@ function App() {
           </div>
 
           <div class="mt-12">
-            <div class="flex mt-20 space-x-6">
+            <div class="flex my-12 space-x-6">
               {/* GitHub */}
               <a href="https://github.com/jamestkelly">
                 <BsGithub size="30"/>
@@ -618,6 +615,54 @@ function App() {
             </div>
           </div>
         </section>
+
+        <div className='mobile-nav mt-6'></div>
+
+        {/* Mobile NavBar Footer*/}
+        <nav className='mobile-nav fixed bottom-0 inset-x-0 bg-secondary-body flex justify-between'>
+          <div class="mobile-navbar-icon group" onClick={scrollTop}>
+            <BsTerminalFill size="24"/>
+          </div>
+
+          <Link
+            activeClass='active'
+            to="projects"
+            spy={ true }
+            smooth={ true }
+            offset={ -40 }
+            duration={ 500 }
+          >
+            <div class="mobile-navbar-icon group">
+              <BsCodeSlash size="24"/>
+            </div>
+          </Link>
+
+          <Link
+            activeClass='active'
+            to="experience"
+            spy={ true }
+            smooth={ true }
+            offset={ -40 }
+            duration={ 500 }
+          >
+            <div class="mobile-navbar-icon group">
+              <BsBriefcaseFill size="24"/>
+            </div>
+          </Link>
+
+          <Link
+            activeClass='active'
+            to="contact"
+            spy={ true }
+            smooth={ true }
+            offset={ -40 }
+            duration={ 500 }
+          >
+            <div class="mobile-navbar-icon group">
+              <MdEmail size="24"/>
+            </div>
+          </Link>
+        </nav>
       </div>
     </body>
   );
