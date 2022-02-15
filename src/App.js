@@ -213,7 +213,7 @@ function App() {
          {/*<img src={require('./img/placeholder-orb.png')} alt="Placeholder for THREE.js canvas"
             class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1 max-h-fit max-w-fit"
   />*/}
-          <div className='particle-canvas min-w-full min-h-full ml-20 mt-12 md:absolute -mt-6 md:mt-0 right-0 max-h-fit max-w-fit'>
+          <div className='min-w-full min-h-full ml-20 mt-12 md:absolute -mt-6 md:mt-0 right-0 max-h-fit max-w-fit'>
             <Particles
               id="tsparticles10"
               options={{
