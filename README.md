@@ -57,6 +57,8 @@ This will then launch the application within the native web browser on your comp
 
 Future developments to this website will naturally come over time as I gain further experience and insight into what I would like to do with the platform. At this current point in time the only primary  development I would like to make is to further develop the THREE.js integration to better work on mobile devices.
 
+Furthemore, I also aim to further improve the CI/CD functionality through the addition of tests regarding performance, primarily targeting that of the THREE.js integration.
+
 ## Acknowledgements
 The development of this website was made possible to the standard that it is through some of the following resources.
 
