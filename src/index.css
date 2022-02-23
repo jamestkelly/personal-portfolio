@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -86,10 +87,10 @@ html, body {
 }
 
 .selected-circle {
-  @apply border-theme bg-theme
+  @apply border-theme bg-theme;
 }
 
-.nav-dot:hover span{
+.nav-dot:hover span {
   opacity: 1;
 }
 
@@ -100,7 +101,7 @@ bg-gray-400 hover:bg-green-600 dark:bg-gray-800
 text-green-500 hover:text-white
   hover:rounded-xl rounded-3xl
   transition-all duration-300 ease-linear
-  cursor-pointer shadow-lg ;
+  cursor-pointer shadow-lg;
 }
 
 .mobile-navbar-icon {
@@ -110,7 +111,7 @@ bg-gray-400 hover:bg-green-600 dark:bg-gray-800
 text-green-500 hover:text-white
   hover:rounded-xl rounded-3xl
   transition-all duration-300 ease-linear
-  cursor-pointer shadow-lg ;
+  cursor-pointer shadow-lg;
 }
 
 .sidebar-tooltip {
@@ -124,19 +125,19 @@ text-green-500 hover:text-white
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
 
 .modal-main {
-  position:fixed;
+  position: fixed;
   background: white;
   width: 80%;
   height: auto;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .display-block {
