@@ -249,7 +249,7 @@ class App extends Component {
           <div className="mobile-nav mt-6"></div>
 
           {/* Mobile NavBar Footer*/}
-          <nav className="mobile-nav fixed bottom-0 inset-x-0 bg-secondary-body flex justify-between">
+          <nav className="mobile-nav fixed bottom-0 z-2 inset-x-0 bg-secondary-body flex justify-between">
             <div class="mobile-navbar-icon group" onClick={scrollTop}>
               <BsTerminalFill size="24" />
             </div>

@@ -111,6 +111,18 @@ class Projects extends Component {
                   <span>GitHub</span>
                 </button>
               </a>
+
+              <a href="https://jim-t-kelly.web.app">
+                <button
+                  class="px-4 py-4 bg-theme text-white font-bold mt-1 flex items-center space-x-3 rounded
+                  hover:bg-white hover:text-black transition-all duration-150 ease-linear"
+                >
+                  <div>
+                    <MdWeb size="24" />
+                  </div>
+                  <span>Website</span>
+                </button>
+              </a>
             </div>
           </div>
 
