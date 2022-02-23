@@ -1,14 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 
 import logo from "./logo.svg";
 import "./App.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import ReactModal from "react-modal";
-import {
-  BsTerminalFill,
-  BsBriefcaseFill,
-  BsCodeSlash
-} from "react-icons/bs";
+import { BsTerminalFill, BsBriefcaseFill, BsCodeSlash } from "react-icons/bs";
 import { FaCoffee } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -24,32 +20,7 @@ const scrollTop = () => {
   scroll.scrollToTop();
 };
 
-const modalStyle = {
-  overlay: {
-    position: "fixed",
-    top: 0,
-    right: 0,
-    width: "100vw",
-    height: "100vh",
-    backgroundColor: "rgba(0, 0, 0, 0.75)",
-    "z-index": "40",
-    padding: "10px"
-  },
-
-  content: {
-    position: "absolute",
-    margin: "40px",
-    border: "1px solid #86BC25",
-    background: "#181818",
-    overflow: "scroll",
-    WebkitOverflowScrolling: "touch",
-    borderRadius: "4px",
-    outline: "none",
-    padding: "20px",
-  },
-};
-
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -145,7 +116,8 @@ class App extends React.Component {
           >
             <button
               class="px-8 py-4 bg-theme text-white font-bold mt-2 mb-4 flex items-center space-x-3 rounded
-            hover:bg-white hover:text-black transition-all duration-150 ease-linear" onClick={ this.handleCloseModal }
+            hover:bg-white hover:text-black transition-all duration-150 ease-linear"
+              onClick={this.handleCloseModal}
             >
               <span>Close</span>
             </button>
@@ -257,21 +229,21 @@ class App extends React.Component {
         {/* Projects */}
         <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
           <section class="w-full">
-            <Projects/>
+            <Projects />
           </section>
         </div>
 
         {/* Experience */}
         <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
           <section class="w-full">
-            <Experience/>
+            <Experience />
           </section>
         </div>
 
         {/* Contact Me */}
         <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
           <section class="w-full">
-            <Contact/>
+            <Contact />
           </section>
 
           <div className="mobile-nav mt-6"></div>
