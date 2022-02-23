@@ -15,4 +15,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JIM_T_KELLY }}'
           projectId: jim-t-kelly
         env:
+          CI: false
           FIREBASE_CLI_PREVIEWS: hostingchannels

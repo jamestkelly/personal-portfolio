@@ -19,4 +19,5 @@ jobs:
           channelId: live
           projectId: jim-t-kelly
         env:
+          CI: false
           FIREBASE_CLI_PREVIEWS: hostingchannels
