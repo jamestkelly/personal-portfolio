@@ -16,8 +16,12 @@ const Contact = () => {
       )
       .then((response) => {
         console.log(response);
+        window.alert("Message successfully sent!")
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error);
+        window.alert("There was an error sending your message.");
+      })
     e.target.reset();
   };
 
