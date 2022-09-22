@@ -26,6 +26,10 @@ import word from 'simple-icons/icons/microsoftword';
 import powerpoint from 'simple-icons/icons/microsoftpowerpoint';
 import sql from 'simple-icons/icons/sqlite';
 import dotnet from 'simple-icons/icons/dotnet';
+import ansible from 'simple-icons/icons/ansible'
+import kubernetes from 'simple-icons/icons/kubernetes'
+import redhatopenshift from 'simple-icons/icons/redhatopenshift'
+import gitlab from 'simple-icons/icons/gitlab'
 
 // Canvas options for icon cloud
 const tagCanvasOptions = {
@@ -42,7 +46,9 @@ const tagCanvasOptions = {
 
 // Render icons to work with icon cloud API
 const icons = [javascript, typescript, angular, git, c, csharp, cplusplus, css3, html15, latex, nodedotjs, react,
-    threedotjs, python, r, java, amazonaws, firebase, azuredevops, excel, word, powerpoint, sql, dotnet].map((icon) => {
+    threedotjs, python, r, java, amazonaws, firebase, azuredevops, excel, word, powerpoint, sql, dotnet, ansible,
+    kubernetes, redhatopenshift, gitlab
+  ].map((icon) => {
     return renderSimpleIcon({
       icon,
       size: 42,

@@ -6,7 +6,7 @@ class ThreeJSHero extends Component {
     render() {
         return (
             <main>
-                <div className='min-w-full min-h-full ml-20 mt-12 md:absolute -mt-6 md:mt-0 right-0 max-h-fit max-w-fit'>
+                <div className='min-w-full min-h-min ml-20 mt-12 md:absolute -mt-6 md:mt-0 right-0 max-h-fit max-w-fit'>
                     <Particles
                     options={{
                         background: {
