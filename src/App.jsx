@@ -227,7 +227,7 @@ class App extends Component {
         </div>
 
         {/* Projects */}
-        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 lg:pt-80 w-full">
           <section class="w-full">
             <Projects />
           </section>
