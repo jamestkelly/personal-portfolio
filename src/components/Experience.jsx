@@ -31,10 +31,10 @@ class Experience extends Component {
 
               <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
                 <div class="badge hover:bg-theme transition-all duration-150 ease-linear">
-                  Graduate Consultant
+                  Full-Stack Developer (Consultant)
                 </div>
                 <div class="badge hover:bg-theme transition-all duration-150 ease-linear">
-                  Platform Engineering
+                  Cloud & Engineering
                 </div>
               </div>
 
@@ -42,10 +42,13 @@ class Experience extends Component {
                 March 2022 - Present
                 <br />
                 <br />
-                Worked with clients to enable them to disrupt industries before
-                industries disrupt them. Built and designed business solutions
-                that are powered by modern technology platforms that run on
-                premise, in the cloud, or a hybrid of both.
+                <ul>
+                  <li>
+                    For a majority of my time at Deloitte I have worked on Illuminate, a supply-chain analytics and visualisation web application.
+                    I design, develop, and deploy features and components, and squash bugs. I work primarily with the following technologies and
+                    frameworks in my role: TypeScript, Docker, NestJS, Go, Python, Ansible, BullMQ, Redis, SQL, Databricks, and gRPC.
+                  </li>
+                </ul>
               </p>
             </div>
           </div>
