@@ -1,0 +1,15 @@
+{
+  "main": {
+    "heading": "Svelte i18n 例"
+  },
+  "locale-switch": {
+    "title": "言語選択",
+    "label": "言語選択",
+    "languages": {
+      "en": "English",
+      "de": "Deutsch",
+      "jp": "日本語",
+      "vn": "Tiếng Việt"
+    }
+  }
+}
