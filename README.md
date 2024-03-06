@@ -78,7 +78,7 @@
 
 This repository houses the **current** build of my personal portfolio website. This project was built so as to better represent my abilities in web development (full stack development) and further work as a centralised point to access more information about me. A basic design of the desired web platform can be seen [here](https://www.figma.com/file/KKP7CBfZuGCs80q9LqlfzE/Personal-Portfolio-Website-%7C-2022---Present?node-id=0%3A1) as designed on Figma.
 
-In brief, the project has been built through the implementation of ReactJS, Tailwind CSS, THREE.js, and Google Cloud Platform (GCP) Firebase. The current build of the website can be seen [here](http://jim-t-kelly.web.app), as hosted by Firebase.
+In brief, the project has been built through the implementation of Svelte, Tailwind CSS, THREE.js, and Google Cloud Platform (GCP) Firebase. The current build of the website can be seen [here](http://jim-t-kelly.web.app), as hosted by Firebase.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -87,12 +87,7 @@ In brief, the project has been built through the implementation of ReactJS, Tail
 - `@emailjs/browser`: ^3.4.0
 - `firebase`: ^9.6.7
 - `pathseg`: ^1.2.1
-- `react`: ^17.0.2
-- `react-icon-cloud`: ^4.0.0
-- `react-icons`: ^4.3.1
-- `react-modal`: ^3.14.4
-- `react-scroll`: ^1.8.4
-- `react-tsparticles`: ^1.41.1
+- `sveltejs/kit`: ^2.0.0
 - `simpleicons`: ^6.10.0
 
 <p align="right">(<a href="#top">back to top</a>)</p>
