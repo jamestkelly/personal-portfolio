@@ -11,5 +11,16 @@
       "jp": "日本語",
       "vn": "Tiếng Việt"
     }
+  },
+  "sections": {
+    "about": "Về tôi",
+    "experience": "Kinh nghiệm",
+    "projects": "Dự án",
+    "contact": "Liên hệ với tôi",
+    "blog": "Blog"
+  },
+  "hero": {
+    "banner": "Xây dựng đẹp",
+    "title": "Hấp dẫn, Hữu ích & Nổi bật; Phát triển Full-Stack"
   }
 }

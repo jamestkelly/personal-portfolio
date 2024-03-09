@@ -11,5 +11,16 @@
       "jp": "日本語",
       "vn": "Tiếng Việt"
     }
+  },
+  "sections": {
+    "about": "私について",
+    "experience": "職歴",
+    "projects": "プロジェクト",
+    "contact": "私に連絡して",
+    "blog": "ブログ"
+  },
+  "hero": {
+    "banner": "美しく建てる",
+    "title": "没入感のある、機能的で目を引くフルスタック開発"
   }
 }
