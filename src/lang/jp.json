@@ -1,26 +1,26 @@
 {
-  "main": {
-    "heading": "Svelte i18n 例"
-  },
-  "locale-switch": {
-    "title": "言語選択",
-    "label": "言語選択",
-    "languages": {
-      "en": "English",
-      "de": "Deutsch",
-      "jp": "日本語",
-      "vn": "Tiếng Việt"
-    }
-  },
-  "sections": {
-    "about": "私について",
-    "experience": "職歴",
-    "projects": "プロジェクト",
-    "contact": "私に連絡して",
-    "blog": "ブログ"
-  },
-  "hero": {
-    "banner": "美しく建てる",
-    "title": "没入感のある、機能的で目を引くフルスタック開発"
-  }
+	"main": {
+		"heading": "Svelte i18n 例"
+	},
+	"locale-switch": {
+		"title": "言語選択",
+		"label": "言語選択",
+		"languages": {
+			"en": "English",
+			"de": "Deutsch",
+			"jp": "日本語",
+			"vn": "Tiếng Việt"
+		}
+	},
+	"sections": {
+		"about": "私について",
+		"experience": "職歴",
+		"projects": "プロジェクト",
+		"contact": "私に連絡して",
+		"blog": "ブログ"
+	},
+	"hero": {
+		"marquee": "美しさを築く",
+		"title": "没入感のある、機能的で目を引くフルスタック開発"
+	}
 }

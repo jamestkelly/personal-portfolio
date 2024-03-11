@@ -1,26 +1,26 @@
 {
-  "main": {
-    "heading": "Svelte i18n Ví dụ"
-  },
-  "locale-switch": {
-    "title": "Sự lựa chọn ngôn ngữ",
-    "label": "Sự lựa chọn ngôn ngữ",
-    "languages": {
-      "en": "English",
-      "de": "Deutsch",
-      "jp": "日本語",
-      "vn": "Tiếng Việt"
-    }
-  },
-  "sections": {
-    "about": "Về tôi",
-    "experience": "Kinh nghiệm",
-    "projects": "Dự án",
-    "contact": "Liên hệ với tôi",
-    "blog": "Blog"
-  },
-  "hero": {
-    "banner": "Xây dựng đẹp",
-    "title": "Hấp dẫn, Hữu ích & Nổi bật; Phát triển Full-Stack"
-  }
+	"main": {
+		"heading": "Svelte i18n Ví dụ"
+	},
+	"locale-switch": {
+		"title": "Sự lựa chọn ngôn ngữ",
+		"label": "Sự lựa chọn ngôn ngữ",
+		"languages": {
+			"en": "English",
+			"de": "Deutsch",
+			"jp": "日本語",
+			"vn": "Tiếng Việt"
+		}
+	},
+	"sections": {
+		"about": "Về tôi",
+		"experience": "Kinh nghiệm",
+		"projects": "Dự án",
+		"contact": "Liên hệ với tôi",
+		"blog": "Blog"
+	},
+	"hero": {
+		"marquee": "Xây dựng Đẹp đẽ",
+		"title": "Hấp dẫn, Hữu ích & Nổi bật; Phát triển Full-Stack"
+	}
 }

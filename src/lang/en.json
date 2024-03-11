@@ -1,26 +1,26 @@
 {
-  "main": {
-    "heading": "Svelte i18n Example"
-  },
-  "locale-switch": {
-    "title": "Locale Switch",
-    "label": "Locale switch",
-    "languages": {
-      "en": "English",
-      "de": "Deutsch",
-      "jp": "日本語",
-      "vn": "Tiếng Việt"
-    }
-  },
-  "sections": {
-    "about": "About Me",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact Me",
-    "blog": "Blog"
-  },
-  "hero": {
-    "banner": "Build beautiful",
-    "title": "Immersive, Functional & Striking; Full-Stack Development"
-  }
+	"main": {
+		"heading": "Svelte i18n Example"
+	},
+	"locale-switch": {
+		"title": "Locale Switch",
+		"label": "Locale switch",
+		"languages": {
+			"en": "English",
+			"de": "Deutsch",
+			"jp": "日本語",
+			"vn": "Tiếng Việt"
+		}
+	},
+	"sections": {
+		"about": "About Me",
+		"experience": "Experience",
+		"projects": "Projects",
+		"contact": "Contact Me",
+		"blog": "Blog"
+	},
+	"hero": {
+		"marquee": "Build Beautiful",
+		"title": "Immersive, Functional & Striking; Full-Stack Development"
+	}
 }

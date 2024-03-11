@@ -1,26 +1,26 @@
 {
-  "main": {
-    "heading": "Svelte i18n Beispiel"
-  },
-  "locale-switch": {
-    "title": "Sprachwechsel",
-    "label": "Sprachwechsel",
-    "languages": {
-      "en": "English",
-      "de": "Deutsch",
-      "jp": "日本語",
-      "vn": "Tiếng Việt"
-    }
-  },
-  "sections": {
-    "about": "Über mich",
-    "experience": "Erfahrung",
-    "projects": "Projekte",
-    "contact": "Kontaktiere mich",
-    "blog": "Blog"
-  },
-  "hero": {
-    "banner": "Baue schön",
-    "title": "Immersiv, funktional & auffallend; Full-Stack-Entwicklung"
-  }
+	"main": {
+		"heading": "Svelte i18n Beispiel"
+	},
+	"locale-switch": {
+		"title": "Sprachwechsel",
+		"label": "Sprachwechsel",
+		"languages": {
+			"en": "English",
+			"de": "Deutsch",
+			"jp": "日本語",
+			"vn": "Tiếng Việt"
+		}
+	},
+	"sections": {
+		"about": "Über mich",
+		"experience": "Erfahrung",
+		"projects": "Projekte",
+		"contact": "Kontaktiere mich",
+		"blog": "Blog"
+	},
+	"hero": {
+		"marquee": "Schönheit Erschaffen",
+		"title": "Immersiv, funktional & auffallend; Full-Stack-Entwicklung"
+	}
 }
