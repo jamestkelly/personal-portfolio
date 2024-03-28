@@ -1,7 +1,9 @@
 <script>
+	import Card from '$lib/components/Card/Card.svelte';
 	import Marquee from '$lib/components/Marquee/Marquee.svelte';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 <Marquee />
+<Card />
